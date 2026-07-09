@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Close imports | Cadastro de Clientes</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Close imports</h1>
+<p>Cadastre-se e faça parte da nossa comunidade.</p>
+
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Novo Cliente</h2>
+
+<form id="formCliente">
+
+<input
+type="text"
+id="nome"
+placeholder="Nome Completo"
+required
+>
+
+<input
+type="email"
+id="email"
+placeholder="E-mail"
+required
+>
+
+<input
+type="tel"
+id="telefone"
+placeholder="Telefone"
+required
+>
+
+<input
+type="date"
+id="nascimento"
+required
+>
+
+<select id="sexo">
+
+<option>Masculino</option>
+
+<option>Feminino</option>
+
+<option>Prefiro não informar</option>
+
+</select>
+
+<button>
+
+Cadastrar
+
+</button>
+
+</form>
+
+</div>
+
+<div class="card">
+
+<div class="topo">
+
+<h2>Clientes</h2>
+
+<span id="contador">0 Clientes</span>
+
+</div>
+
+<input
+type="text"
+id="pesquisa"
+placeholder="Pesquisar cliente..."
+>
+
+<div id="listaClientes">
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
